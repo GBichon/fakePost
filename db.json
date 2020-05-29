@@ -1,0 +1,31 @@
+{
+    "shipping_order"       : {
+            "imported_id"		: "1112222-3333",
+            "order_price"         : "1000",
+            "n_packages"          : "1",
+            "content_description" : "descripcion de contenido",
+            "type"                : "delivery",
+            "weight"              : "0.1",
+            "volume"              : "5.001"
+    },
+        "shipping_destination" : {
+            "customer"         : {
+                "name"  : "John Doe",
+                "phone" : "11111111111",
+                "email" :"john@doe.com"
+            },
+            "delivery_address" : {
+                "home_address" : {
+                    "place"        : "Providencia",
+                    "full_address" : "Av. Andres Bello 2447 Local 4153"
+                }
+            }
+        },
+        "shipping_origin" : {
+            "warehouse_code" : "cod_bod"
+        },
+        "carrier" : {
+            "carrier_code" : "BLX",
+            "tracking_number": "xxx1111"
+        }
+}
